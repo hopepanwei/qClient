@@ -2,6 +2,6 @@ server:
   port: 8099
 
 bot:
-  websocketUrl: localhost #go-cqhttp配置中的正向websocket地址
+  websocketUrl: 127.0.0.1 #go-cqhttp配置中的正向websocket地址
   websocketPort: 6700 #go-cqhttp配置中的正向websocket端口号
   accessToken: #go-cqhttp配置中的access_token

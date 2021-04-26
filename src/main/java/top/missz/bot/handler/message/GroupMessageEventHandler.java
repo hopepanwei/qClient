@@ -1,6 +1,9 @@
 package top.missz.bot.handler.message;
 
 import com.alibaba.fastjson.JSONObject;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import top.missz.bot.annotation.GroupMessageHandler;
 import top.missz.bot.contact.support.Group;
 import top.missz.bot.core.BotApplication;
@@ -10,9 +13,6 @@ import top.missz.bot.handler.EventHandler;
 import top.missz.bot.message.Message;
 import top.missz.bot.message.MessageChain;
 import top.missz.bot.message.MessageTypeHandle;
-import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 import java.util.Set;
